@@ -68,7 +68,7 @@
 				<nav class="  border-gray-200 bg-white px-4 py-2.5 dark:bg-gray-800 lg:px-6">
 					<div class=" mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
 						<a href="/" class="flex items-center">
-							<img src="src\routes\images\logo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
+							<img src="/src/routes/images/logo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
 							<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white"
 								>Wayne's Web</span
 							>
@@ -177,7 +177,7 @@
 						<img
 							transition:fade={{ y: 200, duration: 2000 }}
 							class="rounded-lg"
-							src="src\routes\images\a4.jpg"
+							src="/src/routes/images/a4.jpg"
 							alt="mockup"
 							width="350"
 							height="250"
@@ -394,7 +394,7 @@
 					<img
 										
 										class="float-right rounded-lg"
-										src="src\routes\images\logo.jpg"
+										src="/src/routes/images/logo.jpg"
 										alt="mockup"
 										width="160"
 										height="160"
@@ -419,7 +419,7 @@
 									<img
 										transition:fade={{ y: 200, duration: 2000 }}
 										class="float-right m-8 rounded-lg"
-										src="src\routes\images\h1.jpg"
+										src="/src/routes/images/h1.jpg"
 										alt="mockup"
 										width="350"
 										height="250"
@@ -427,7 +427,7 @@
 									<img
 										transition:fade={{ y: 200, duration: 2000 }}
 										class="float-right m-8 rounded-lg"
-										src="src\routes\images\h4.jpg"
+										src="/src/routes/images/h4.jpg"
 										alt="mockup"
 										width="350"
 										height="250"
@@ -435,7 +435,7 @@
 									<img
 										transition:fade={{ y: 200, duration: 2000 }}
 										class="float-right m-8 rounded-lg"
-										src="src\routes\images\h3.jpg"
+										src="/src/routes/images/h3.jpg"
 										alt="mockup"
 										width="350"
 										height="250"
