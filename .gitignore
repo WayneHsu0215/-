@@ -3,6 +3,7 @@
 
 # Build output
 /build/
+/functions/
 
 # Vite files
 vite.config.js.timestamp-*
