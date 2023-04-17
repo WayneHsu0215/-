@@ -1,0 +1,9 @@
+# SvelteKit files
+/.svelte-kit/
+
+# Build output
+/build/
+
+# Vite files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
