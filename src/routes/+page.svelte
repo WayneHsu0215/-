@@ -545,9 +545,7 @@
 </div>
 
 <style>
-	.text-3xl {
-		animation: appear 1s ease-in-out forwards;
-	}
+	
 
 	@keyframes appear {
 		from {
