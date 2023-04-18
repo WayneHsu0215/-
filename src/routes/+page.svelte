@@ -148,9 +148,9 @@
 		<!------>
 		<section class=" " id="a1">
 			<div
-				class="mx-auto mr-4 grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0"
+				class="mx-auto  grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0"
 			>
-				<div class="mr-auto place-self-center lg:col-span-7">
+				<div class=" place-self-center lg:col-span-7">
 					<h1
 						class="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl"
 					>
@@ -172,7 +172,7 @@
 						</a>
 					</Button>
 				</div>
-				<div class="flex hidden h-full overflow-x-auto lg:col-span-5 lg:mt-0 lg:flex" id="slider">
+				<div class="flex hidden ml-16 h-full overflow-x-auto lg:col-span-5 lg:mt-0 lg:flex" id="slider">
 					{#if visible}
 						<img
 							transition:fade={{ y: 200, duration: 2000 }}
@@ -196,7 +196,7 @@
 				</div>
 				<div class="space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-3">
 					<div
-						class="h-56 p-20 rounded-lg bg-gradient-to-r from-sky-100 to-blue-300  pt-12 hover:from-sky-300 hover:to-blue-500 hover:text-white "
+						class="h-56 p-12 rounded-lg bg-gradient-to-r from-sky-100 to-blue-300  pt-12 hover:from-sky-300 hover:to-blue-500 hover:text-white "
 					>
 						<h3 class="mb-2 text-xl font-bold dark:text-white">基本資料</h3>
 						<p class="">姓名:許朝威 Chao-Wei Hsu</p>
@@ -204,7 +204,7 @@
 						<p class="">生日:2003/02/15</p>
 					</div>
 					<div
-						class="h-56 p-16  rounded-lg   bg-gradient-to-r from-sky-100 to-blue-300  pt-12 hover:from-sky-300 hover:to-blue-500 hover:text-white"
+						class="h-56 p-12  rounded-lg   bg-gradient-to-r from-sky-100 to-blue-300  pt-12 hover:from-sky-300 hover:to-blue-500 hover:text-white"
 					>
 						<h3 class=" mb-2 text-xl font-bold dark:text-white">聯絡方式</h3>
 
@@ -212,7 +212,7 @@
 						<p class="">信箱:asdfg32390299@gmail.com</p>
 					</div>
 					<div
-						class="h-56 p-16 rounded-lg   bg-gradient-to-r from-sky-100 to-blue-300  pt-12 hover:from-sky-300 hover:to-blue-500 hover:text-white"
+						class="h-56 p-12 rounded-lg   bg-gradient-to-r from-sky-100 to-blue-300  pt-12 hover:from-sky-300 hover:to-blue-500 hover:text-white"
 					>
 						<h3 class="mb-2 text-xl font-bold dark:text-white">學歷</h3>
 						<b>國立台北護理健康大學 資訊管理系</b>
@@ -388,7 +388,8 @@
 		</section>
 
 		<section class="border border-2 bg-white dark:bg-gray-900" id="a3">
-			<div class="p-12">
+			<div class=" p-12 m-32">
+				
 				<h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
 					大學 <Icon icon="mdi:camera" class="mr-2 inline text-4xl" />
 					<img
