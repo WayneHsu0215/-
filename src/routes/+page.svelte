@@ -1,7 +1,7 @@
 <script>
 	import { Button, Dropdown, DropdownItem, Chevron } from 'flowbite-svelte';
 	import { SpeedDial, SpeedDialButton } from 'flowbite-svelte';
-
+	import a4Image from '/src/routes/images/a4.jpg';
 	import { fade } from 'svelte/transition';
 	import { scrollTo } from 'svelte-scrollto';
 	import Modal from '$lib/components/Modal/Modal.svelte';
@@ -177,7 +177,7 @@
 						<img
 							transition:fade={{ y: 200, duration: 2000 }}
 							class="rounded-lg"
-							src="/src/routes/images/a4.jpg"
+							src="{a4Image}"
 							alt="mockup"
 							width="350"
 							height="250"
