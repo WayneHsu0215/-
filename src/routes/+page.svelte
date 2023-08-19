@@ -149,7 +149,7 @@
 		</div>
 
 		<!------>
-		<section class=" " id="a1">
+		<section class="w-screen h-screen" id="a1">
 			<div
 				class="mx-auto  grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0"
 			>
@@ -190,7 +190,7 @@
 			</div>
 		</section>
 
-		<section class="border border-2 bg-white dark:bg-gray-900" id="a2">
+		<section class="h-screen w-screen border border-2 bg-white dark:bg-gray-900" id="a2">
 			<div class="mx-auto max-w-screen-xl py-8 px-4 sm:py-16 ">
 				<div class="mb-8 max-w-screen-md lg:mb-8">
 					<h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
@@ -390,7 +390,7 @@
 			</div>
 		</section>
 
-		<section class="border border-2 bg-white dark:bg-gray-900" id="a3">
+		<section class="h-screen border border-2 bg-white dark:bg-gray-900" id="a3">
 			<div class=" p-12 m-32">
 				
 				<h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
