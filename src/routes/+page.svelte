@@ -51,6 +51,8 @@
 			if (i > text.length) clearInterval(intervalId);
 		}, 100);
 	});
+
+	
 </script>
 
 <head>
@@ -58,13 +60,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<title>許朝威個人網站</title>
+	<title>李瑜庭個人網站</title>
 </head>
 
 <body>
 	<div>
 		<div class="  w-full">
 			<header class="" id="a0">
+
 				<nav class="  border-gray-200 bg-white px-4 py-2.5 dark:bg-gray-800 lg:px-6">
 					<div class=" mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
 						<a href="/" class="flex items-center">
